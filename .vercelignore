@@ -1,0 +1,23 @@
+# Local development artifacts
+node_modules/
+dist/
+dist-ssr/
+*.log
+*.local
+
+# Editor and system files
+.vscode/
+.idea/
+.DS_Store
+
+# Test and docs (if not needed for build)
+tests/
+__tests__/
+docs/
+coverage/
+
+# Optional: exclude config files not needed at runtime
+.eslintrc*
+eslint.config.js
+tailwind.config.js
+postcss.config.js
